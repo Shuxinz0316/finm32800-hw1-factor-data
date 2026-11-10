@@ -1,0 +1,10 @@
+[project]
+name = "HW1 replicated Fama-French factors"
+description = "Monthly SMB and HML factors replicated for FINM 32800 HW1."
+
+[dataframes.hw1_factors]
+name = "HW1 replicated SMB and HML"
+description = "Monthly derived factor returns, in decimal units."
+path = "hw1_factors.csv"
+date_col = "date"
+docs = "Monthly SMB and HML factors constructed from six size and book-to-market portfolios."
